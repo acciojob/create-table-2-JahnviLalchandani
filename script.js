@@ -3,7 +3,7 @@ function createTable() {
 	const table=document.getElementById("myTable");
 
 	const rn=Number(prompt("Input numbers of rows"))
-	const cn=Number(prompt("Input numbers of column"))
+	const cn=Number(prompt("Input numbers of columns"))
 
 	for(let i=0;i<rn;i++){
 		let row=document.createElement("tr")
